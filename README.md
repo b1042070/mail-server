@@ -125,6 +125,8 @@ Subject為主旨
 
 接著為信件內容
 
+輸入完畢後ctrl+d送出
+
 <img width="465" alt="螢幕擷取畫面 2022-06-02 010842" src="https://user-images.githubusercontent.com/106367137/171461647-4acc184e-7b6e-464d-bece-e297f1730f1f.png">
 
 - 查看郵件是否寄出 
