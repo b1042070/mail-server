@@ -155,13 +155,15 @@ mail
 mail (自己或其他的mail)
 ```
 
-<img width="470" alt="螢幕擷取畫面 2022-06-02 012615" src="https://user-images.githubusercontent.com/106367137/171465831-93d03ffe-c628-4260-8120-996d50315a9b.png">
+![1654106422698](https://user-images.githubusercontent.com/106367137/171472371-5bba2c37-69b8-4d59-bec8-7680c3dcd849.jpg)
+
 
 ```shell
 mail
 ```
 
-<img width="464" alt="螢幕擷取畫面 2022-06-02 012709" src="https://user-images.githubusercontent.com/106367137/171466003-148cc1dd-ae21-4809-81fa-ab6823484b95.png">
+![1654106534448](https://user-images.githubusercontent.com/106367137/171472392-c3c1e605-faf5-4e2d-9be7-1562ff547e15.jpg)
+
 
 - 查看是否收到郵件
 
