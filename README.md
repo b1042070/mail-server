@@ -95,16 +95,10 @@ sudo apt install postfix
 
 <img width="460" alt="螢幕擷取畫面 2022-06-02 005816" src="https://user-images.githubusercontent.com/106367137/171459644-11e639cf-58e9-4e96-8528-46a6f08abfe6.png">
 
-- 測試 Mail-Server
+- 安裝 mailutils
 ```shell
 sudo apt install mailutils
 ```
-
-```shell
-mail
-```
-
-<img width="463" alt="螢幕擷取畫面 2022-06-02 010248" src="https://user-images.githubusercontent.com/106367137/171460476-c8536515-cbea-4cdf-8b4c-84872bd31163.png">
 
 - 添加用戶
 ```shell
