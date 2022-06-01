@@ -105,6 +105,8 @@ sudo apt install mailutils
 sudo useradd -m -s /bin/bash dog
 ```
 
+- 更改用戶密碼
+
 ```shell
 sudo passwd dog
 ```
