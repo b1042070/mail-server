@@ -18,7 +18,7 @@ B1042070張瑀芹
 ```shell
 sudo apt update
 ```
-- 安裝bind9
+- 安裝bind
 ```shell
 sudo apt install bind9
 ```
@@ -27,9 +27,7 @@ sudo apt install bind9
 ifconfig
 ```
 ![1654100004015](https://user-images.githubusercontent.com/106367137/171451126-e5d77c33-1ffd-427f-b682-e031582293ee.jpg)
-![1654099632873](https://user-images.githubusercontent.com/106367137/171451132-03b4c411-3023-4392-9863-138c565d1d74.jpg)
-<img width="456" alt="螢幕擷取畫面 2022-06-02 000834" src="https://user-images.githubusercontent.com/106367137/171451133-69fc4f44-cf97-41a9-9144-03af4cd11578.png">
-
+- 配置 /var/cache/db.test
 ```shell
 sudo nano /var/cache/bind/db.test
 ```
