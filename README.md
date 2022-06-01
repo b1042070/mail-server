@@ -31,7 +31,7 @@ ifconfig
 ```shell
 sudo nano /var/cache/bind/db.test
 ```
-寫入此內容並將IP改為自己的
+  寫入此內容並將IP改為自己的
 ```properties
 $ORIGIN test.com.
 $TTL 1D
