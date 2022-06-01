@@ -8,8 +8,8 @@ B1042070張瑀芹
 ## Mail
 * Mail介紹
 * Mail安裝
-* 實作一: Mail給ubuntu其他使用者
-* 實作二: Mail給Gmail帳號
+* 實作一 : Mail給ubuntu其他使用者
+* 實作二 : Mail給Gmail帳號
 ## Mail介紹
 ## Mail安裝
 - 將網路改為橋接介面卡
