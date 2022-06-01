@@ -118,11 +118,29 @@ sudo passwd dog
 
 <img width="515" alt="螢幕擷取畫面 2022-06-02 010505" src="https://user-images.githubusercontent.com/106367137/171460817-93c37f70-b7af-4197-96a8-9c4d7ca1a3af.png">
 
+- 發送郵件
 ```shell
 mail dog
 ```
-cc
+Cc為寄件者
+
+Subject為主旨
+
+接著為信件內容
+
+<img width="465" alt="螢幕擷取畫面 2022-06-02 010842" src="https://user-images.githubusercontent.com/106367137/171461647-4acc184e-7b6e-464d-bece-e297f1730f1f.png">
+
+- 查看郵件是否寄出 
+```shell
+mail
+```
+
+<img width="464" alt="螢幕擷取畫面 2022-06-02 011104" src="https://user-images.githubusercontent.com/106367137/171462285-d0675597-325f-4faa-830b-4fe871f44811.png">
+
+- 登出切換用戶查看郵件
 
 ```shell
-sudo apt update
+mail
 ```
+
+
