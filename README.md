@@ -164,6 +164,8 @@ mail
 
 <img width="464" alt="螢幕擷取畫面 2022-06-02 012709" src="https://user-images.githubusercontent.com/106367137/171466003-148cc1dd-ae21-4809-81fa-ab6823484b95.png">
 
+- 查看是否收到郵件
+
 <img width="413" alt="螢幕擷取畫面 2022-06-02 012741" src="https://user-images.githubusercontent.com/106367137/171466114-e05adec9-0d89-4f81-b8a3-ae9178051939.png">
 
 
