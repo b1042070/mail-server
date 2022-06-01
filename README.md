@@ -153,7 +153,7 @@ mail
 - 發送郵件給gmail
 
 ```shell
-mail b1042011@ems.niu.edu.tw(自己的gmail)
+mail b1042011@ems.niu.edu.tw(自己或其他的gmail)
 ```
 
 <img width="470" alt="螢幕擷取畫面 2022-06-02 012615" src="https://user-images.githubusercontent.com/106367137/171465831-93d03ffe-c628-4260-8120-996d50315a9b.png">
