@@ -52,6 +52,7 @@ mail    IN        A 192.168.111.37
 ```
 <img width="484" alt="螢幕擷取畫面 2022-06-02 002410" src="https://user-images.githubusercontent.com/106367137/171453467-0e1a4b49-c525-4b15-ab2a-7137815a1cc7.png">
 
+- 添加新區域bind配置
 ```shell
 sudo named-checkzone test.com. /var/cache/bind/db.test
 ```
