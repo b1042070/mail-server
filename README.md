@@ -8,8 +8,8 @@ B1042070張瑀芹
 ## Mail
 * Mail介紹
 * Mail安裝
-* Mail給ubuntu其他使用者
-* Mail給Gmail帳號
+* 實作一:Mail給ubuntu其他使用者
+* 實作二:Mail給Gmail帳號
 ## Mail介紹
 ## Mail安裝
 - 將網路改為橋接介面卡
@@ -116,7 +116,7 @@ sudo passwd dog
 
 <img width="515" alt="螢幕擷取畫面 2022-06-02 010505" src="https://user-images.githubusercontent.com/106367137/171460817-93c37f70-b7af-4197-96a8-9c4d7ca1a3af.png">
 
-## Mail給ubuntu其他使用者
+## 實作一:Mail給ubuntu其他使用者
 ```shell
 mail dog
 ```
@@ -135,7 +135,7 @@ Subject為主旨
 mail
 ```
 
-<img width="464" alt="螢幕擷取畫面 2022-06-02 011104" src="https://user-images.githubusercontent.com/106367137/171462285-d0675597-325f-4faa-830b-4fe871f44811.png">
+![1654106164338](https://user-images.githubusercontent.com/106367137/171471228-42b5d54c-90b8-4c19-b1aa-6ccbce2c9c52.jpg)
 
 - 登出切換用戶預覽郵件
 
@@ -149,10 +149,10 @@ mail
 
 <img width="464" alt="螢幕擷取畫面 2022-06-02 012050" src="https://user-images.githubusercontent.com/106367137/171464884-bb3ceb79-bd16-4959-aff9-ee28c91f7320.png">
 
-## Mail給Gmail帳號
+## 實作二:Mail給Gmail帳號
 
 ```shell
-mail b1042011@ems.niu.edu.tw(自己或其他的mail)
+mail (自己或其他的mail)
 ```
 
 <img width="470" alt="螢幕擷取畫面 2022-06-02 012615" src="https://user-images.githubusercontent.com/106367137/171465831-93d03ffe-c628-4260-8120-996d50315a9b.png">
