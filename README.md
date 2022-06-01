@@ -71,6 +71,11 @@ zone "test.com." {
 ```shell
 sudo nano /etc/bind/named.conf.options
 ```
+0.0.0.0 改成 8.8.8.8 並將斜線刪除
+
+<img width="534" alt="螢幕擷取畫面 2022-06-02 004147" src="https://user-images.githubusercontent.com/106367137/171456610-0afc967b-e0f4-4eac-8c56-a6597c70f906.png">
+
+<img width="534" alt="螢幕擷取畫面 2022-06-02 004231" src="https://user-images.githubusercontent.com/106367137/171456752-125ebc3b-9de5-45d7-85b8-df84dfdaf80b.png">
 
 ```shell
 sudo systemctl restart bind9
