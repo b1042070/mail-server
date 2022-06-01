@@ -28,10 +28,11 @@ sudo apt install bind9
 ifconfig
 ```
 ![1654100004015](https://user-images.githubusercontent.com/106367137/171451126-e5d77c33-1ffd-427f-b682-e031582293ee.jpg)
-- 配置 /var/cache/db.test(寫入此內容並將IP改為自己的)
+- 配置 /var/cache/db.test
 ```shell
 sudo nano /var/cache/bind/db.test
 ```
+寫入此內容並將IP改為自己的
 ```properties
 $ORIGIN test.com.
 $TTL 1D
@@ -57,6 +58,15 @@ sudo named-checkzone test.com. /var/cache/bind/db.test
 ```shell
 sudo nano /etc/bind/named.conf.default-zones
 ```
+在檔案中加入此內容
+```properties
+zone "test.com." {
+       type master;
+       file "db.test";
+};
+```
+
+![S__91643908](https://user-images.githubusercontent.com/106367137/171455480-ee3783cd-ad5e-4825-91ad-457462c9ea28.jpg)
 
 ```shell
 sudo nano /etc/bind/named.conf.options
