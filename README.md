@@ -7,8 +7,9 @@ B1042033余詩涵
 B1042070張瑀芹
 ## Mail
 * Mail介紹
-
 * Mail安裝
+* Mail給ubuntu其他使用者
+* Mail給Gmail帳號
 ## Mail介紹
 ## Mail安裝
 - 將網路改為橋接介面卡
@@ -115,7 +116,7 @@ sudo passwd dog
 
 <img width="515" alt="螢幕擷取畫面 2022-06-02 010505" src="https://user-images.githubusercontent.com/106367137/171460817-93c37f70-b7af-4197-96a8-9c4d7ca1a3af.png">
 
-- 發送郵件給另一個用戶
+## 發送郵件給另一個用戶
 ```shell
 mail dog
 ```
@@ -148,7 +149,7 @@ mail
 
 <img width="464" alt="螢幕擷取畫面 2022-06-02 012050" src="https://user-images.githubusercontent.com/106367137/171464884-bb3ceb79-bd16-4959-aff9-ee28c91f7320.png">
 
-- 發送郵件給gmail
+## 發送郵件給gmail
 
 ```shell
 mail b1042011@ems.niu.edu.tw(自己或其他的gmail)
