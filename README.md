@@ -116,7 +116,7 @@ sudo passwd dog
 
 <img width="515" alt="螢幕擷取畫面 2022-06-02 010505" src="https://user-images.githubusercontent.com/106367137/171460817-93c37f70-b7af-4197-96a8-9c4d7ca1a3af.png">
 
-## 發送郵件給另一個用戶
+## Mail給ubuntu其他使用者
 ```shell
 mail dog
 ```
@@ -149,10 +149,10 @@ mail
 
 <img width="464" alt="螢幕擷取畫面 2022-06-02 012050" src="https://user-images.githubusercontent.com/106367137/171464884-bb3ceb79-bd16-4959-aff9-ee28c91f7320.png">
 
-## 發送郵件給gmail
+## Mail給Gmail帳號
 
 ```shell
-mail b1042011@ems.niu.edu.tw(自己或其他的gmail)
+mail b1042011@ems.niu.edu.tw(自己或其他的mail)
 ```
 
 <img width="470" alt="螢幕擷取畫面 2022-06-02 012615" src="https://user-images.githubusercontent.com/106367137/171465831-93d03ffe-c628-4260-8120-996d50315a9b.png">
