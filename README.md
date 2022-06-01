@@ -94,7 +94,7 @@ sudo apt install postfix
 
 <img width="460" alt="螢幕擷取畫面 2022-06-02 005816" src="https://user-images.githubusercontent.com/106367137/171459644-11e639cf-58e9-4e96-8528-46a6f08abfe6.png">
 
-
+- 測試 Mail-Server
 ```shell
 sudo apt install mailutils
 ```
@@ -103,6 +103,9 @@ sudo apt install mailutils
 mail
 ```
 
+<img width="463" alt="螢幕擷取畫面 2022-06-02 010248" src="https://user-images.githubusercontent.com/106367137/171460476-c8536515-cbea-4cdf-8b4c-84872bd31163.png">
+
+- 添加用戶
 ```shell
 sudo useradd -m -s /bin/bash dog
 ```
@@ -110,6 +113,10 @@ sudo useradd -m -s /bin/bash dog
 ```shell
 sudo passwd dog
 ```
+
+<img width="350" alt="螢幕擷取畫面 2022-06-02 010418" src="https://user-images.githubusercontent.com/106367137/171460737-3c430d47-3831-4004-a5c2-f5971d8e2fc9.png">
+
+<img width="515" alt="螢幕擷取畫面 2022-06-02 010505" src="https://user-images.githubusercontent.com/106367137/171460817-93c37f70-b7af-4197-96a8-9c4d7ca1a3af.png">
 
 ```shell
 mail dog
