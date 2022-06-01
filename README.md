@@ -11,7 +11,7 @@ B1042070張瑀芹
 * Mail安裝
 ## Mail介紹
 ## Mail安裝
-### 將網路改為橋接介面卡
+將網路改為橋接介面卡
 <img width="599" alt="1" src="https://user-images.githubusercontent.com/106367137/171447823-a085575b-1536-4cb3-83e4-b41d7b848e63.png">
 
 - 更新
@@ -27,11 +27,10 @@ sudo apt install bind9
 ifconfig
 ```
 ![1654100004015](https://user-images.githubusercontent.com/106367137/171451126-e5d77c33-1ffd-427f-b682-e031582293ee.jpg)
-- 配置 /var/cache/db.test
+- 配置 /var/cache/db.test(寫入此內容並將IP改為自己的)
 ```shell
 sudo nano /var/cache/bind/db.test
 ```
-  寫入此內容並將IP改為自己的
 ```properties
 $ORIGIN test.com.
 $TTL 1D
