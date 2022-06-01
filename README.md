@@ -26,12 +26,14 @@ sudo apt install bind9
 ```shell
 ifconfig
 ```
-![1654099175565](https://user-images.githubusercontent.com/106367137/171448631-18a143ca-dcf1-4ee9-84c4-ae46426c7903.jpg)
+![1654100004015](https://user-images.githubusercontent.com/106367137/171451126-e5d77c33-1ffd-427f-b682-e031582293ee.jpg)
+![1654099632873](https://user-images.githubusercontent.com/106367137/171451132-03b4c411-3023-4392-9863-138c565d1d74.jpg)
+<img width="456" alt="螢幕擷取畫面 2022-06-02 000834" src="https://user-images.githubusercontent.com/106367137/171451133-69fc4f44-cf97-41a9-9144-03af4cd11578.png">
 
 ```shell
 sudo nano /var/cache/bind/db.test
 ```
-### 寫入此內容並將IP改為自己的
+寫入此內容並將IP改為自己的
 ```properties
 $ORIGIN test.com.
 $TTL 1D
