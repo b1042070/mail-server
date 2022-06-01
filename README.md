@@ -1,16 +1,19 @@
 # Mail-Server
-# 組員
+## 組員
 B1042011張芳瑜
 
 B1042033余詩涵
 
 B1042070張瑀芹
-# Mail
+## Mail
 * Mail介紹
 
 * Mail安裝
-# Mail介紹
-# Mail安裝
+## Mail介紹
+## Mail安裝
+### 將網路改為橋接介面卡
+<img width="599" alt="1" src="https://user-images.githubusercontent.com/106367137/171447823-a085575b-1536-4cb3-83e4-b41d7b848e63.png">
+
 - 更新
 ```shell
 sudo apt update
@@ -20,14 +23,15 @@ sudo apt update
 sudo apt install bind9
 ```
 - 查詢IP
-先將ubuntu網路設定改為橋接介面卡
 ```shell
 ifconfig
 ```
--
+![1654099175565](https://user-images.githubusercontent.com/106367137/171448631-18a143ca-dcf1-4ee9-84c4-ae46426c7903.jpg)
+
 ```shell
 sudo nano /var/cache/bind/db.test
 ```
+### 寫入此內容並將IP改為自己的
 ```properties
 $ORIGIN test.com.
 $TTL 1D
@@ -39,14 +43,16 @@ $TTL 1D
                 5H ;minimum
 );
 @       IN        NS ns1
-ns1     IN        A 192.168.250.7
-mail    IN        A 192.168.250.7
+ns1     IN        A 192.168.111.37
+mail    IN        A 192.168.111.37
 @       IN        MX 5 mail
 ```
+![1654099632873](https://user-images.githubusercontent.com/106367137/171449858-94a4d3f5-654f-4a63-b630-1618aec8377e.jpg)
 
 ```shell
 sudo named-checkzone test.com. /var/cache/bind/db.test
 ```
+<img width="456" alt="螢幕擷取畫面 2022-06-02 000834" src="https://user-images.githubusercontent.com/106367137/171450098-74f158a8-4d22-433c-ad61-bb5912ffb3e6.png">
 
 ```shell
 sudo nano /etc/bind/named.conf.default-zones
