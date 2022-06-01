@@ -79,14 +79,21 @@ sudo nano /etc/bind/named.conf.options
 
 <img width="534" alt="螢幕擷取畫面 2022-06-02 004231" src="https://user-images.githubusercontent.com/106367137/171456752-125ebc3b-9de5-45d7-85b8-df84dfdaf80b.png">
 
+- 重啟bind
 ```shell
 sudo systemctl restart bind9
 ```
 
-
+- 安裝postfix
 ```shell
 sudo apt install postfix
 ```
+<img width="461" alt="螢幕擷取畫面 2022-06-02 005705" src="https://user-images.githubusercontent.com/106367137/171459429-4442cad2-5ae8-4f5e-b0a2-3999ce9415d3.png">
+
+<img width="461" alt="螢幕擷取畫面 2022-06-02 005737" src="https://user-images.githubusercontent.com/106367137/171459522-34f555d0-44e3-42b0-b24d-5798c8685dc0.png">
+
+<img width="460" alt="螢幕擷取畫面 2022-06-02 005816" src="https://user-images.githubusercontent.com/106367137/171459644-11e639cf-58e9-4e96-8528-46a6f08abfe6.png">
+
 
 ```shell
 sudo apt install mailutils
