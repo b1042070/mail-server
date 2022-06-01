@@ -11,6 +11,8 @@ B1042070張瑀芹
 * 實作一 : Mail給ubuntu其他使用者
 * 實作二 : Mail給Gmail帳號
 ## Mail介紹
+### 參考資料
+[ https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/ ](https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/)
 ## Mail安裝
 - 將網路改為橋接介面卡
 
