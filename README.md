@@ -27,7 +27,9 @@ sudo apt install bind9
 ```shell
 ifconfig
 ```
-![1654100004015](https://user-images.githubusercontent.com/106367137/171451126-e5d77c33-1ffd-427f-b682-e031582293ee.jpg)
+
+<img width="686" alt="螢幕擷取畫面 2022-06-02 004631" src="https://user-images.githubusercontent.com/106367137/171457622-84bf5e69-bd6b-4e65-a9c6-f81d0db82aee.png">
+
 - 配置 /var/cache/db.test
 ```shell
 sudo nano /var/cache/bind/db.test
@@ -66,7 +68,7 @@ zone "test.com." {
 };
 ```
 
-![S__91643908](https://user-images.githubusercontent.com/106367137/171455480-ee3783cd-ad5e-4825-91ad-457462c9ea28.jpg)
+<img width="535" alt="螢幕擷取畫面 2022-06-02 004451" src="https://user-images.githubusercontent.com/106367137/171457295-5495684e-a11c-4c48-89c7-c27f98a10f97.png">
 
 ```shell
 sudo nano /etc/bind/named.conf.options
