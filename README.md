@@ -7,38 +7,34 @@ B1042033余詩涵
 B1042070張瑀芹
 ## Mail
 * Mail介紹
+* Mail Server 的組成
+* 郵件傳輸協定
+* 郵件存取協定
 * Mail安裝
 * 實作一 : Mail給ubuntu其他使用者
 * 實作二 : Mail給Gmail帳號
 ## Mail介紹
+- Mail Server 的組成
 
-- Mail Server
+郵件使用者代理人MUA(Mail User Agent)：接收郵件主機的電子郵件，以及提供使用者瀏覽與編寫郵件的功能，用戶都需要透過各個作業系統提供的MUA 才能夠使用郵件系統。
 
-1.Email 開始於 1960 年代，但只能在同一系統中發送郵件
+軟體應用程序：Outlook Express、Lotus notes
 
-2.第一封在網路間傳送的電子郵件發生在 1971 年
+網路郵件服務：Yahoo!、Gmail
 
-3.現在電子郵件已是標準網路協定
+郵件傳送代理人MTA(Mail Transfer Agent)：接收或發送至其它MTA主機的郵件。
 
-- Mail Transport Protocols
+郵件遞送代理人MDA ( Mail Delivery Agent )：將 MTA 所收受的信件，依照信件的Flow(送到哪裡去)將該信件進行放置到本機帳戶下的郵件信箱(Mailbox)，或者是再經由MTA 將這個信件送到下個MTA 。
 
-1.Simple Mail Transport Protocols (SMPT)：負責將郵件從 client 的應用程式，送到開始的 server，再送到目的 server 的協定
+- 郵件傳輸協定 Mail Transfer Protocols
 
-2.SMPT 允許使用者不需要身份認證下，在網路間傳送郵件給任何人或一群人。這造成大量垃圾郵件發生的可能性
+SMTP ( Simple Mail Transfer Protocol )是主要的傳輸協定，可用在傳送和接收電子郵件的資訊，但SMTP通常用作傳送電子郵件資訊，而不是接收。
 
-3.必須限制用戶從您的 SMPT 服務器傳送電子郵件
+SMTP是一個相對簡單的基於文字的協定。我們可以透過協定，指定了一條訊息傳送至一個或多個接收者（在大多數情況下被確認是存在的），然後訊息文字會被傳輸。
 
-- Mail Access Protocols
+- 郵件存取協定Mail Access Protocols
 
-1.有兩種主要的協定：Post Office Protocol (POP) 與 Internet Message Access Protocol (IMAP)
-
-2.目前的 POP 版本是 POP3
-
-3.CentOS 預設的 POP 及 IMAP 套件是 dovecot
-
-4.POP email client 預設從 mail server 下載郵件後，會刪除 mail server 上的郵件。IMAP 則會保留 mail server 上的郵件
-
-5.IMAP 較適合多電腦共同存取郵件
+IMAP 4 ( Internet Message Access Protocol 4) 和POP3 ( Post Office Protocol 3 )是郵件存取最為普遍的Internet標準協定。兩者都允許一個郵件客戶端存取郵件伺服器上儲存的資訊。
 
 ## Mail安裝
 - 將網路改為橋接介面卡
