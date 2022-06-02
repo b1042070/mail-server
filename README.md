@@ -18,11 +18,6 @@ B1042070張瑀芹
 
 <img width="449" alt="螢幕擷取畫面 2022-06-02 201330" src="https://user-images.githubusercontent.com/106367137/171626729-1c5398ca-38d8-4050-ba41-83c1295d4be3.png">
 
-* 參考資料
-
-[ https://dywang.csie.cyut.edu.tw/dywang/linuxserver/node67.html#:~:text ](https://dywang.csie.cyut.edu.tw/dywang/linuxserver/node67.html#:~:text)
-
-[ https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/ ](https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/)
 ## Mail安裝
 - 將網路改為橋接介面卡
 
@@ -185,7 +180,11 @@ mail
 
 <img width="413" alt="螢幕擷取畫面 2022-06-02 012741" src="https://user-images.githubusercontent.com/106367137/171466114-e05adec9-0d89-4f81-b8a3-ae9178051939.png">
 
+## 參考資料
 
+[ https://dywang.csie.cyut.edu.tw/dywang/linuxserver/node67.html#:~:text ](https://dywang.csie.cyut.edu.tw/dywang/linuxserver/node67.html#:~:text)
+
+[ https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/ ](https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/)
 
 
 
