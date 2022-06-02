@@ -11,6 +11,13 @@ B1042070張瑀芹
 * 實作一 : Mail給ubuntu其他使用者
 * 實作二 : Mail給Gmail帳號
 ## Mail介紹
+
+<img width="353" alt="螢幕擷取畫面 2022-06-02 200756" src="https://user-images.githubusercontent.com/106367137/171626696-07cb0dbf-7b96-4c83-942a-b1897cf73651.png">
+
+<img width="452" alt="螢幕擷取畫面 2022-06-02 201307" src="https://user-images.githubusercontent.com/106367137/171626718-1f452c51-2bb4-4ed6-9f7c-6c9c7c59e8fa.png">
+
+<img width="449" alt="螢幕擷取畫面 2022-06-02 201330" src="https://user-images.githubusercontent.com/106367137/171626729-1c5398ca-38d8-4050-ba41-83c1295d4be3.png">
+
 * 參考資料
 
 [ https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/ ](https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/)
