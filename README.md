@@ -12,7 +12,7 @@ B1042070張瑀芹
 * 實作二 : Mail給Gmail帳號
 ## Mail介紹
 
-* Mail Server
+### Mail Server
 
 1.Email 開始於 1960 年代，但只能在同一系統中發送郵件
 
@@ -20,7 +20,7 @@ B1042070張瑀芹
 
 3.現在電子郵件已是標準網路協定
 
-* Mail Transport Protocols
+### Mail Transport Protocols
 
 1.Simple Mail Transport Protocols (SMPT)：負責將郵件從 client 的應用程式，送到開始的 server，再送到目的 server 的協定
 
@@ -28,7 +28,7 @@ B1042070張瑀芹
 
 3.必須限制用戶從您的 SMPT 服務器傳送電子郵件
 
-* Mail Access Protocols
+### Mail Access Protocols
 
 1.有兩種主要的協定：Post Office Protocol (POP) 與 Internet Message Access Protocol (IMAP)
 
