@@ -7,9 +7,9 @@ B1042033余詩涵
 B1042070張瑀芹
 ## Mail
 * Mail介紹
-* Mail Server 的組成
-* 郵件傳輸協定
-* 郵件存取協定
+  - Mail Server 的組成
+  - 郵件傳輸協定
+  - 郵件存取協定
 * Mail安裝
 * 實作一 : Mail給ubuntu其他使用者
 * 實作二 : Mail給Gmail帳號
