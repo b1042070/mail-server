@@ -14,17 +14,17 @@ B1042070張瑀芹
 * 實作一 : Mail給ubuntu其他使用者
 * 實作二 : Mail給Gmail帳號
 ## Mail介紹
-- Mail Server 的組成
+  * Mail Server 的組成
 
-郵件使用者代理人MUA(Mail User Agent)：接收郵件主機的電子郵件，以及提供使用者瀏覽與編寫郵件的功能，用戶都需要透過各個作業系統提供的MUA 才能夠使用郵件系統。
+     - 郵件使用者代理人MUA(Mail User Agent)：接收郵件主機的電子郵件，以及提供使用者瀏覽與編寫郵件的功能，用戶都需要透過各個作業系統提供的MUA 才能夠使用郵件系統。
 
-軟體應用程序：Outlook Express、Lotus notes
+       軟體應用程序：Outlook Express、Lotus notes
 
-網路郵件服務：Yahoo!、Gmail
+       網路郵件服務：Yahoo!、Gmail
 
-郵件傳送代理人MTA(Mail Transfer Agent)：接收或發送至其它MTA主機的郵件。
+     - 郵件傳送代理人MTA(Mail Transfer Agent)：接收或發送至其它MTA主機的郵件。
 
-郵件遞送代理人MDA ( Mail Delivery Agent )：將 MTA 所收受的信件，依照信件的Flow(送到哪裡去)將該信件進行放置到本機帳戶下的郵件信箱(Mailbox)，或者是再經由MTA 將這個信件送到下個MTA 。
+     - 郵件遞送代理人MDA ( Mail Delivery Agent )：將 MTA 所收受的信件，依照信件的Flow(送到哪裡去)將該信件進行放置到本機帳戶下的郵件信箱(Mailbox)，或者是再經由MTA 將這個信件送到下個MTA 。
 
 - 郵件傳輸協定 Mail Transfer Protocols
 
