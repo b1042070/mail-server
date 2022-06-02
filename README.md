@@ -20,6 +20,8 @@ B1042070張瑀芹
 
 * 參考資料
 
+[ https://dywang.csie.cyut.edu.tw/dywang/linuxserver/node67.html#:~:text ](https://dywang.csie.cyut.edu.tw/dywang/linuxserver/node67.html#:~:text)
+
 [ https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/ ](https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/)
 ## Mail安裝
 - 將網路改為橋接介面卡
