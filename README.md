@@ -32,7 +32,7 @@ SMTP ( Simple Mail Transfer Protocol )是主要的傳輸協定，可用在傳送
 
 SMTP是一個相對簡單的基於文字的協定。我們可以透過協定，指定了一條訊息傳送至一個或多個接收者（在大多數情況下被確認是存在的），然後訊息文字會被傳輸。
 
-- 郵件存取協定Mail Access Protocols
+- 郵件存取協定 Mail Access Protocols
 
 IMAP 4 ( Internet Message Access Protocol 4) 和POP3 ( Post Office Protocol 3 )是郵件存取最為普遍的Internet標準協定。兩者都允許一個郵件客戶端存取郵件伺服器上儲存的資訊。
 
