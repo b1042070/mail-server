@@ -12,11 +12,32 @@ B1042070張瑀芹
 * 實作二 : Mail給Gmail帳號
 ## Mail介紹
 
-<img width="353" alt="螢幕擷取畫面 2022-06-02 200756" src="https://user-images.githubusercontent.com/106367137/171626696-07cb0dbf-7b96-4c83-942a-b1897cf73651.png">
+* Mail Server
+1.Email 開始於 1960 年代，但只能在同一系統中發送郵件
 
-<img width="452" alt="螢幕擷取畫面 2022-06-02 201307" src="https://user-images.githubusercontent.com/106367137/171626718-1f452c51-2bb4-4ed6-9f7c-6c9c7c59e8fa.png">
+2.第一封在網路間傳送的電子郵件發生在 1971 年
 
-<img width="449" alt="螢幕擷取畫面 2022-06-02 201330" src="https://user-images.githubusercontent.com/106367137/171626729-1c5398ca-38d8-4050-ba41-83c1295d4be3.png">
+3.現在電子郵件已是標準網路協定
+
+* Mail Transport Protocols
+
+1.Simple Mail Transport Protocols (SMPT)：負責將郵件從 client 的應用程式，送到開始的 server，再送到目的 server 的協定
+
+2.SMPT 允許使用者不需要身份認證下，在網路間傳送郵件給任何人或一群人。這造成大量垃圾郵件發生的可能性
+
+3.必須限制用戶從您的 SMPT 服務器傳送電子郵件
+
+* Mail Access Protocols
+
+1.有兩種主要的協定：Post Office Protocol (POP) 與 Internet Message Access Protocol (IMAP)
+
+2.目前的 POP 版本是 POP3
+
+3.CentOS 預設的 POP 及 IMAP 套件是 dovecot
+
+4.POP email client 預設從 mail server 下載郵件後，會刪除 mail server 上的郵件。IMAP 則會保留 mail server 上的郵件
+
+5.IMAP 較適合多電腦共同存取郵件
 
 ## Mail安裝
 - 將網路改為橋接介面卡
