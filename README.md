@@ -13,6 +13,7 @@ B1042070張瑀芹
 * Mail安裝
 * 實作一 : Mail給ubuntu其他使用者
 * 實作二 : Mail給Gmail帳號
+* 教學影片
 ## Mail介紹
   * Mail Server 的組成
 
@@ -197,6 +198,10 @@ mail
 - 查看是否收到郵件(需要去垃圾郵件查看)
 
 <img width="413" alt="螢幕擷取畫面 2022-06-02 012741" src="https://user-images.githubusercontent.com/106367137/171466114-e05adec9-0d89-4f81-b8a3-ae9178051939.png">
+
+## 教學影片
+
+[ https://www.canva.com/design/DAFDSCSRwxM/CLt2SX5HCHaOHntijF9B7Q/watch?utm_content=DAFDSCSRwxM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink ](https://www.canva.com/design/DAFDSCSRwxM/CLt2SX5HCHaOHntijF9B7Q/watch?utm_content=DAFDSCSRwxM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ## 參考資料
 
